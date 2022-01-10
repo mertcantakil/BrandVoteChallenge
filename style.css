@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    color: grey;
+    font-size: 42px;
+    padding: 3rem;
+    text-decoration: unset;
+}
+
+hr {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#secondHeader {
+    float: right;
+    margin-top: 15px;
+}
+
+#secondHeader a {
+    color: black;
+    font-size: 28px;
+    padding-top: 1rem;
+}
+
+.counter {
+    background-color: #eaeaea;
+    height: 100%;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.card-body {
+    height: 100%;
+}
+
+button {
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 0
+}
+
+i {
+    padding-right: 10px;
+}
+
+.no-border {
+    border: 0
+}
+
+.fa-plus-square,
+.submitBtn {
+    width: 100%;
+    height: 100%;
+}
+
+.w-30 {
+    width: 30% !important;
+}
+
+#addButton {
+    border-radius: 50px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 32px;
+    float: right;
+    min-width: 100px;
+}
+
+input,
+.inputform {
+    margin-bottom: 20px;
+}
+
+.title {
+    text-align: start;
+}
+
+#returnListText {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.dropdown-item {
+    font-size: 18px !important;
+}
+
+#dropdown-1 {
+    margin-left: -25px !important;
+    margin-top: -25px !important;
+}
+
+#dropdown-1>button {
+    width: 150px;
+    background-color: #eaeaea;
+    color: black;
+}
+
+.hovered:hover {
+    background-color: #fff8f7;
+}
+
+.hovered:hover .trashButton {
+    visibility: visible;
+}
+
+.hovered .trashButton {
+    visibility: hidden;
+}
+
+.trashButton {
+    float: right;
+}
+
+.trashButton>i {
+    padding-right: 0 !important
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-item>button {
+    margin: 0 !important;
+}
+
+.voted {
+    font-size: 15px !important;
+}
